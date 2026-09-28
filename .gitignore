@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+.idea/
+output/
+build/
+dist/
+config/cameras.json
+legacy/
+
+models/*.pt
