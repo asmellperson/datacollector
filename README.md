@@ -1,6 +1,6 @@
 # DataCollector 数据采集应用
 
-这是整理后的独立项目目录，用于从摄像头或视频流采集原始帧、ROI 裁剪图和目标检测裁剪图，并支持 YOLO 标注。
+该项目用于从摄像头或视频流采集原始帧、ROI 裁剪图和目标检测裁剪图，并支持 YOLO 标注。
 
 ## 运行
 
@@ -34,4 +34,4 @@ powershell -ExecutionPolicy Bypass -File scripts\build.ps1
 
 ## 说明
 
-`legacy` 中部分旧 `.py` 文件带有 `%TSD-Header-###%` 文件头，内容不是普通 Python 明文；本次整理只归档、不修改这些文件。
+`legacy` 中部分旧 `.py` 文件带有 `%TSD-Header-###%` 文件头，内容不是普通 Python 明文。
